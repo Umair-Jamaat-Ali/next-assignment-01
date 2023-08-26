@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
       <body className={inter.className}>{children}</body>
     </html>
   )
