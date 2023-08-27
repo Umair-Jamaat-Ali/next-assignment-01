@@ -1,3 +1,4 @@
+import Button from "../button/Button";
 import Navbar from "../navbar/Navbar";
 
 const Header = () => {
@@ -11,13 +12,7 @@ const Header = () => {
                     <h1 className="text-6xl font-bold mb-3">Creative <br/> Digital Agency</h1>
                     <p className="text-sm font-normal my-3">Lorem ipsum dolor sit amet consectetur <br/> adipisicing elit.
                      </p>
-                    <button 
-                    className="bg-blue-400 w-[130px] h-10 ml-3 mt-2
-                     text-white rounded-xl 
-                     hover:bg-white 
-                     hover:text-black"> 
-                    Learn More 
-                    </button>
+                   <Button text="Learn More" />
                     </div>
                     <div className="w-[50%] ">
                     <img src="/img/digital.png" alt="" className="m-8 ml-[200px] "/>
