@@ -1,3 +1,4 @@
+import AboutCard from "../(components)/aboutCard/AboutCard";
 import Button from "../(components)/button/Button";
 import Card from "../(components)/card/Card";
 
@@ -7,7 +8,7 @@ const About = () => {
            <div className="p-[100px] ">
             <div className="flex justify-between ">
                 <section className="w-[50%] m-3 ml-4 ">
-                   <Card/>
+                   <Card imgsrc="/img/images1.png" />
                 </section>
                 <section className="w-[50%] ">
                     <p className="text-blue-500 text-lg uppercase my-4">
@@ -29,8 +30,10 @@ const About = () => {
             </div>
            </div>
            <div className="w-[100%] h-[350px] bg-slate-300 flex items-center pl-[200px] ">
-            <div className=" w-[85%] h-[200px]  border-2 border-slate-100 ">
-
+            <div className=" w-[90%] h-[200px]  border-2 border-slate-100 flex justify-between ">
+                <AboutCard imgsrc="/img/1.jpg" heading="Smart Planing" />
+                <AboutCard imgsrc="/img/4.png" heading="Our Partnership" />
+                <AboutCard imgsrc="/img/3.png" heading="Super Ideas" />
             </div>
             </div>
         </>
