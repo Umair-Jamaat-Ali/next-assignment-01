@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 const Header = () => {
     return (
         <>
-            <div className="h-[450px] bg-[url('/img/download.jpg')] bg-no-repeat bg-cover w-[100%]
+            <div className="h-[450px] bg-[url('/img/13.jpg')] bg-no-repeat bg-cover w-[100%]
             ">
                 <Navbar />
                 <div className="flex justify-between">
