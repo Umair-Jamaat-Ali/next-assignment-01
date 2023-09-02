@@ -29,8 +29,8 @@ const About = () => {
                 </section>
             </div>
            </div>
-           <div className="w-[100%] h-[350px] bg-slate-300 flex items-center pl-[200px] ">
-            <div className=" w-[90%] h-[200px]  border-2 border-slate-100 flex justify-between ">
+           <div className="w-[100%] h-[350px] bg-slate-300 flex items-center pl-[100px] grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className=" w-[90%] h-[200px]  border-2 border-slate-100 flex justify-between  ">
                 <AboutCard imgsrc="/img/1.jpg" heading="Smart Planing" />
                 <AboutCard imgsrc="/img/4.png" heading="Our Partnership" />
                 <AboutCard imgsrc="/img/3.png" heading="Super Ideas" />
